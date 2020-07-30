@@ -1,5 +1,9 @@
 
+body{
+    background-color: rgb(253, 240, 226);
+}
 a{
+
     color: black;
 }
 a:hover{
@@ -39,8 +43,112 @@ header{
 .header_shoppingbag_price{
     font-weight: bolder;
 }
+ .navbar-toggler {
+     background-color: black;
+     padding-left: 9px;
+     padding-right: 9px;
+ }
+ .navbar-toggler-icon {
+    width: 30px;
+    height: 5px;
+    margin: 2px;
+    background-color: rgb(215, 148, 89);
+}
+.toggler-icon{
+    display: flex;
+    flex-direction: column;
+}
+.navbar-nav li a{
+    font-family: 'Nova Square', cursive;
+}
+.carousel-img{
+    position: relative;
+}
+.carousel-content{
+    background-color: rgba(0, 0, 0, 0.733);
+    font-size: 50px;
+    position: absolute;
+    top : 0;
+    left: 40%;
+    height: 100%;
+    display: none;
+}
+.carousel-content-inner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.carosal-caption{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(215, 148, 89);
+    font-size: 20px;
+    line-height: 1;
+    text-justify: auto;
+    text-align: center;
+    display: none;
+}
+
+.text-carousel{
+    background-color: white;
+}
+
+.footer-1{
+    height: 400px;
+    background-color: black;
+    color:white;    
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
     .header_scetion_1{
         letter-spacing: 3px;
+    }
+    .nav-toggler-icon{
+        width: 100%;
+    }
+    .carousel-img{
+        position: relative;
+    }
+    .carousel-content{
+        background-color: rgba(0, 0, 0, 0.733);
+        font-size: 20px;
+        position: absolute;
+        top : 0;
+        left: 30%;
+        height: 100%;
+        display: none;
+    }
+    .carousel-content-inner{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+    .carosal-caption{
+        height: 120px;
+        width: 120px;
+        background-color: rgb(215, 148, 89);
+        font-size: 15px;
+        line-height: 1;
+        text-justify: auto;
+        text-align: center;
+        display: none;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .nav-toggler-icon{
+        width: 100%;
     }
 }

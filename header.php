@@ -72,6 +72,40 @@
           </div>
         </div>
       </div>
+        <nav class="w-100 navbar navbar-expand-sm pt-md-0"> 
+          <div class="container"> 
+            <div class="mx-auto mx-md-1">
+              <button class="navbar-toggler" type="button" 
+                      data-toggle="collapse"
+                      data-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false" 
+                      aria-label="Toggle navigation"> 
+                  <div class="toggler-icon">
+                    <div class="navbar-toggler-icon"></div> 
+                    <div class="navbar-toggler-icon"></div> 
+                    <div class="navbar-toggler-icon"></div> 
+                  </div>
+              </button> 
+            </div> 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav text-center mx-auto mt-2 mt-md-0"> 
+                <li class="nav-item active mr-0 mr-md-4"> 
+                  <a class="nav-link" href="#">WOMAN <span class="sr-only"> (current) </span> </a> 
+                </li> 
+                <li class="nav-item mr-0 mr-md-4"> 
+                  <a class="nav-link" href="#">NEW LOOK</a> 
+                </li> 
+                <li class="nav-item mr-0 mr-md-4"> 
+                  <a class="nav-link"href="#">FESTIVE</a> 
+                </li> 
+                <li class="nav-item mr-0 mr-md-4"> 
+                  <a class="nav-link"href="#">DEAL OF THE DAY</a> 
+                </li> 
+              </ul>
+            </div>  
+          </div> 
+        </nav> 
     </header>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

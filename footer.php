@@ -7,11 +7,35 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/style.css">
     <title>Hello, world!</title>
   </head>
   <body>
-    
+    <footer>
+      <div class="footer-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              hai
+            </div>
+            <div class="col-md-6 col-lg-3">
+              hai
+            </div>
+            <div class="col-md-6 col-lg-3">
+              hai
+            </div>
+            <div class="col-md-6 col-lg-3">
+              hai
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
