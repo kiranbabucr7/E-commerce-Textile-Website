@@ -97,18 +97,27 @@ header{
 }
 
 .footer-1{
-    height: 400px;
     background-color: black;
     color:white;    
 }
-
-
-
-
-
-
-
-
+.footer-2{
+    background-color: white;  
+}
+.footer-3{
+    background-color: rgb(215, 148, 89);  
+}
+.footer-box-1{
+    height: 60px;
+    width: 50px;
+    background-color: rgb(215, 148, 89);
+    color: black;
+    border-bottom-left-radius: 40px;
+}
+.footer-box-1 p{
+    font-size: 38px; 
+    font-weight: bolder; 
+    padding-left: 25px;
+}
 @media screen and (max-width: 768px) {
     .header_scetion_1{
         letter-spacing: 3px;
@@ -151,4 +160,11 @@ header{
     .nav-toggler-icon{
         width: 100%;
     }
+}
+
+
+
+/* utils */
+.text-w{
+    color: rgb(255, 255, 255);
 }

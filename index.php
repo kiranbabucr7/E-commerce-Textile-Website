@@ -76,7 +76,7 @@
           </div>
         </div>
       </div>
-      <div class="text-carousel mt-5">
+      <div class="text-carousel mt-5 mb-5">
         <div class="container">
           <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
             <div class="carousel-inner text-justify p-5">
