@@ -30,7 +30,7 @@
             <div class="col-md-3">
               <div>
                 <div class="catogory">
-                  <div class="catogory-header" data-toggle="collapse" href="#catogory-body" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <div class="catogory-header" data-toggle="collapse" href="#catogory-body" role="button" aria-expanded="false" aria-controls="category-accordion">
                     <div class="d-flex">
                       <div class="pt-2">
                         <div class="burger mb-1"></div>
@@ -100,7 +100,29 @@
                     </div>
                   </div>
                 </div>
+                <div class="filter">
+                  <div class="filter-header" data-toggle="collapse" href="#filter-body" role="button" aria-expanded="false" aria-controls="filter-main">
+                    <div class="d-flex">
+                      <div class="pt-2">
+                        <div class="burger mb-1"></div>
+                        <div class="burger mb-1"></div>
+                        <div class="burger mb-1"></div>
+                      </div>
+                      <div>
+                        <p class="catogory-p pl-2">Filter</p>
+                      </div>
+                    </div>
+                    <hr class="m-0 mb-3">
+                  </div>
+                </div>
               </div>
+            </div>
+            <div class="col-md-9">
+              <div class="d-flex bd-highlight mb-3">
+                <div class="mr-auto p-2 bd-highlight">Flex item</div>
+                <div class="p-2 bd-highlight">Flex item</div>
+                <div class="p-2 bd-highlight">Flex item</div>
+              </div>  
             </div>
           </div>
         </div>
