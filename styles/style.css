@@ -2,6 +2,9 @@
 body{
     background-color: rgb(253, 240, 226);
 }
+hr{
+    background-color: rgb(215, 148, 89);
+}
 a{
 
     color: black;
@@ -102,9 +105,11 @@ header{
 }
 .footer-2{
     background-color: white;  
+    padding: 5px 0px;
 }
 .footer-3{
     background-color: rgb(215, 148, 89);  
+    padding: 5px 0px;
 }
 .footer-box-1{
     height: 60px;
@@ -117,6 +122,15 @@ header{
     font-size: 38px; 
     font-weight: bolder; 
     padding-left: 25px;
+}
+.burger{
+    width: 20px;
+    min-height: 3px;
+    border-radius: 10%;
+    background-color: rgb(215, 148, 89);
+}
+.catogory-p{
+    font-size: 23px;
 }
 @media screen and (max-width: 768px) {
     .header_scetion_1{
